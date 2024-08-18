@@ -1,4 +1,4 @@
-# ⏱️ Numio - Time Calculator
+# ⏱️ Numio - Sleek Time Calculator
 
 **Numio** is a sleek time calculator for iOS, iPadOS, and macOS. Calculate durations, add times, and convert units easily across all your devices.
 
@@ -13,10 +13,9 @@
 
 ### macOS via Homebrew
 
-1. Install using Homebrew:
-    ```zsh
-    brew install your-username/tap/numio
-    ```
+```zsh
+brew install numio
+```
 
 ### Manual Installation
 
