@@ -1,6 +1,12 @@
-# ⏱️ Numio - Sleek Time Calculator
+<p align="center">
+    <img width="888" alt="Cover" src="https://github.com/user-attachments/assets/031b5b00-441a-4c88-8de0-a406bff92362">
+</p>
 
-**Numio** is a sleek time calculator for iOS, iPadOS, and macOS. Calculate durations, add times, and convert units easily across all your devices.
+<h1 align="center">⏱️ Numio - Sleek Time Calculator</h1>
+
+<p align="center">
+  <strong>Numio</strong> is a sleek time calculator for iOS, iPadOS, and macOS. Calculate durations, add times, and convert units easily across all your devices.
+</p>
 
 ## ✨ Features
 
