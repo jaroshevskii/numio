@@ -21,6 +21,7 @@
 		BB0FBB8F2C7284F200DB01FE /* Numio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Numio.entitlements; sourceTree = "<group>"; };
 		BB0FBB912C7284F200DB01FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB0FBB982C72861A00DB01FE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BB0FBB992C7295F300DB01FE /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +38,7 @@
 		BB0FBB7D2C7284F000DB01FE = {
 			isa = PBXGroup;
 			children = (
+				BB0FBB992C7295F300DB01FE /* LICENSE.md */,
 				BB0FBB982C72861A00DB01FE /* README.md */,
 				BB0FBB882C7284F000DB01FE /* Numio */,
 				BB0FBB872C7284F000DB01FE /* Products */,
