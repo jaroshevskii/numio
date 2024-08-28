@@ -15,6 +15,10 @@
 - 🔄 **Time Conversion**: Convert between hours, minutes, seconds, and more.
 - 🌗 **Dark Mode**: Beautiful in both light and dark modes.
 
+<p align="center">
+  <img width="888" alt="image" src="https://github.com/user-attachments/assets/5e412eb0-686d-47c4-8655-d3c2a5262f19">
+</p>
+
 ## 🚀 Installation
 
 ### macOS via Homebrew
