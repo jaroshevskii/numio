@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		BB0FBB8A2C7284F000DB01FE /* NumioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FBB892C7284F000DB01FE /* NumioApp.swift */; };
-		BB0FBB8C2C7284F000DB01FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0FBB8B2C7284F000DB01FE /* ContentView.swift */; };
 		BB0FBB8E2C7284F200DB01FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0FBB8D2C7284F200DB01FE /* Assets.xcassets */; };
 		BB0FBB922C7284F200DB01FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0FBB912C7284F200DB01FE /* Preview Assets.xcassets */; };
+		BB7BF89B2C7FC9C8003E3D97 /* DateRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7BF89A2C7FC9C8003E3D97 /* DateRange.swift */; };
+		BB7BF89E2C7FCA1F003E3D97 /* DateCalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7BF89D2C7FCA1F003E3D97 /* DateCalculatorViewModel.swift */; };
+		BB7BF8A32C7FD076003E3D97 /* DateCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7BF8A22C7FD076003E3D97 /* DateCalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB0FBB862C7284F000DB01FE /* Numio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Numio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0FBB892C7284F000DB01FE /* NumioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumioApp.swift; sourceTree = "<group>"; };
-		BB0FBB8B2C7284F000DB01FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB0FBB8D2C7284F200DB01FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB0FBB8F2C7284F200DB01FE /* Numio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Numio.entitlements; sourceTree = "<group>"; };
 		BB0FBB912C7284F200DB01FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB0FBB982C72861A00DB01FE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BB0FBB992C7295F300DB01FE /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		BB7BF89A2C7FC9C8003E3D97 /* DateRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateRange.swift; sourceTree = "<group>"; };
+		BB7BF89D2C7FCA1F003E3D97 /* DateCalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCalculatorViewModel.swift; sourceTree = "<group>"; };
+		BB7BF8A22C7FD076003E3D97 /* DateCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		BB0FBB882C7284F000DB01FE /* Numio */ = {
 			isa = PBXGroup;
 			children = (
+				BB7BF8992C7FC8F7003E3D97 /* Models */,
+				BB7BF89C2C7FC9D4003E3D97 /* ViewModels */,
+				BB7BF8A12C7FD05C003E3D97 /* Views */,
 				BB0FBB892C7284F000DB01FE /* NumioApp.swift */,
-				BB0FBB8B2C7284F000DB01FE /* ContentView.swift */,
 				BB0FBB8D2C7284F200DB01FE /* Assets.xcassets */,
 				BB0FBB8F2C7284F200DB01FE /* Numio.entitlements */,
 				BB0FBB902C7284F200DB01FE /* Preview Content */,
@@ -71,6 +77,30 @@
 				BB0FBB912C7284F200DB01FE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB7BF8992C7FC8F7003E3D97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB7BF89A2C7FC9C8003E3D97 /* DateRange.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB7BF89C2C7FC9D4003E3D97 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BB7BF89D2C7FCA1F003E3D97 /* DateCalculatorViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BB7BF8A12C7FD05C003E3D97 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB7BF8A22C7FD076003E3D97 /* DateCalculatorView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB0FBB8C2C7284F000DB01FE /* ContentView.swift in Sources */,
+				BB7BF89E2C7FCA1F003E3D97 /* DateCalculatorViewModel.swift in Sources */,
 				BB0FBB8A2C7284F000DB01FE /* NumioApp.swift in Sources */,
+				BB7BF89B2C7FC9C8003E3D97 /* DateRange.swift in Sources */,
+				BB7BF8A32C7FD076003E3D97 /* DateCalculatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
