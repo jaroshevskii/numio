@@ -19,14 +19,13 @@ struct DateCalculatorView: View {
                 GeometryReader { geometry in
                     VStack {
                         DatePicker(
-                            "Begin Date",
+                            "",
                             selection: Binding(
                                 get: { dateCalculator.dateRange.beginDate },
                                 set: { dateCalculator.dateRange.beginDate = $0 }
                             ),
                             displayedComponents: [.hourAndMinute]
                         )
-                        .frame(height: geometry.size.height / 2)
                         
                         Spacer()
                         
@@ -41,14 +40,13 @@ struct DateCalculatorView: View {
                 GeometryReader { geometry in
                     VStack {
                         DatePicker(
-                            "End Date",
+                            "",
                             selection: Binding(
                                 get: { dateCalculator.dateRange.endDate },
                                 set: { dateCalculator.dateRange.endDate = $0 }
                             ),
                             displayedComponents: [.hourAndMinute]
                         )
-                        .frame(height: geometry.size.height / 2)
                         
                         Spacer()
                         
@@ -62,9 +60,9 @@ struct DateCalculatorView: View {
             }
             .datePickerStyle(WheelDatePickerStyle())
             .buttonStyle(.bordered)
-            .padding()
             .frame(height: 250)
         }
+        .padding()
     }
 }
 

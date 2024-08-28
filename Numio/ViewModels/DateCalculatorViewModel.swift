@@ -35,7 +35,7 @@ final class DateCalculatorViewModel: ObservableObject {
     }
     
     func setCurentDateForEndDate() {
-        dateRange.beginDate = Date()
+        dateRange.endDate = Date()
     }
     
     func setZeroDateForBeginDate() {
